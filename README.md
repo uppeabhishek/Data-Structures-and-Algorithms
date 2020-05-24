@@ -1,6 +1,6 @@
-<a href="https://leetcode.com/problemset/all/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+<a href="https://leetcode.com/problemset/all/" target="_blank" rel="noopener noreferrer">Data Structures And Algorithms</a>
 <div>
-  This repository contains solutions for leetcode
+  This repository contains solutions for data structure and algorithms
 </div>
 
 
