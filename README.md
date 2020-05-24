@@ -1,4 +1,4 @@
-<a href="https://leetcode.com/problemset/all/" target="_blank">LeetCode</a>
+<a href="https://leetcode.com/problemset/all/" target="_blank" rel="noopener noreferrer">LeetCode</a>
 <div>
   This repository contains solutions for leetcode
 </div>
@@ -12,8 +12,10 @@
     </tr>
   </thead>
     <tr>
-      <td><a href="https://leetcode.com/problems/sort-characters-by-frequency/">Sort Characters By Frequency</a></td>
-      <td><a href="https://github.com/uppeabhishek/leetcodesolutions/blob/master/python/SortCharactersByFrequency.py">Solution</a></td>
+      <td><a href="https://leetcode.com/problems/sort-characters-by-frequency/" target="_blank" rel="noopener noreferrer"
+>Sort Characters By Frequency</a></td>
+      <td><a href="https://github.com/uppeabhishek/leetcodesolutions/blob/master/python/SortCharactersByFrequency.py" target="_blank" rel="noopener noreferrer"
+>Solution</a></td>
     </tr>
   <tbody>
    
