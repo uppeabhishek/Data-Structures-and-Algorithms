@@ -6,6 +6,8 @@ class Node:
 class LinkedList:
     def __init__(self):
         self.head = None;
+        # Stores the last node pointer so adding time complexity will be O(1);
+        self.last_node = None;
 
 
 class Graph:
@@ -19,10 +21,11 @@ class Graph:
         
         if temp is None:
             self.li[start].head = Node(end);
+            self.li[start].last_node = self.li[start].head;
         else:
-            while temp.next!=None:
-                temp = temp.next;
-            temp.next = Node(end);
+           node = Node(end);
+           self.li[start].last_node.next = node;
+           self.li[start].last_node = self.li[start].last_node.next;
     
     def print_vertices(self):
         for i in range(V):
