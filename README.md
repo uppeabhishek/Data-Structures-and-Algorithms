@@ -14,7 +14,7 @@
     <tr>
       <td><a href="https://leetcode.com/problems/sort-characters-by-frequency/" target="_blank" rel="noopener noreferrer"
 >Sort Characters By Frequency</a></td>
-      <td><a href="https://github.com/uppeabhishek/leetcodesolutions/blob/master/python/SortCharactersByFrequency.py" target="_blank" rel="noopener noreferrer"
+      <td><a href="https://github.com/uppeabhishek/Data-Structures-and-Algorithms/blob/master/Sorting/SortCharactersByFrequency.py" target="_blank" rel="noopener noreferrer"
 >Solution</a></td>
     </tr>
   <tbody>
