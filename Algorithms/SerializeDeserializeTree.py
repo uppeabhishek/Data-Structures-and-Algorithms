@@ -5,6 +5,7 @@ class TreeNode(object):
         self.left = None
         self.right = None
 
+
 from collections import deque
 
 
@@ -102,6 +103,7 @@ class Codec:
             self.index += 1
             self.deserialize_helper(res, root)
             return root
+
 
 # Your Codec object will be instantiated and called as such:
 
