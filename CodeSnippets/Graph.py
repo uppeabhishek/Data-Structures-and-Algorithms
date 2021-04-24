@@ -3,7 +3,7 @@ from collections import deque
 
 class Graph:
 
-    def __init__(self, V, directed=False):
+    def __init__(self, V, directed=True):
         self.VLength = V
         self.V = [deque() for _ in range(V)]
         self.visited = [False for _ in range(V)]
@@ -16,7 +16,6 @@ class Graph:
 
     def DFSHelper(self, index):
         self.visited[index] = True
-        print(index)
         for ele in self.V[index]:
             if not self.visited[ele]:
                 self.DFSHelper(ele)
@@ -40,6 +39,7 @@ class Graph:
                     print(neighbour)
                     self.visited[neighbour] = True
                     queue.append(neighbour)
+
 
 g = Graph(5)
 g.add_edge(0, 1)

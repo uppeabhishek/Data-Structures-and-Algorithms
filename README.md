@@ -1,4 +1,5 @@
-<a href="https://leetcode.com/problemset/all/" target="_blank" rel="noopener noreferrer">Data Structures And Algorithms</a>
+<a href="https://leetcode.com/problemset/all/" target="_blank" rel="noopener noreferrer">Data Structures And
+Algorithms</a>
 <div>
   This repository contains solutions for data structure and algorithms
 </div>
@@ -18,7 +19,7 @@
 >Solution</a></td>
     </tr>
   <tbody>
-   
+
   </tbody>
-  
+
  <table>

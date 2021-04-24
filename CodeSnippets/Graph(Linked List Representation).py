@@ -19,7 +19,7 @@ class Graph:
     def add_edge(self, start, end):
 
         temp = self.li[start].head
-        
+
         if temp is None:
             self.li[start].head = Node(end)
             self.li[start].last_node = self.li[start].head

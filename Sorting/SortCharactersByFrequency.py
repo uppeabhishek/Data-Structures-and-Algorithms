@@ -11,7 +11,7 @@ class Solution:
         d = sorted(d.items(), key=lambda kv: (kv[1]), reverse=True)
 
         res = ""
-        
+
         for ele in d:
             for i in range(ele[1]):
                 res += ele[0]

@@ -1,5 +1,7 @@
 from collections import deque
 
+from DisjointSet import DisjointSet
+
 
 class Graph:
 
@@ -8,8 +10,12 @@ class Graph:
         self.V = [deque() for _ in range(V)]
         self.visited = [False for _ in range(V)]
         self.directed = directed
+        self.edges = set()
 
     def add_edge(self, source, destination):
+        if not (source, destination) in self.edges:
+            self.edges.add((source, destination))
+
         self.V[source].append(destination)
         if not self.directed:
             self.V[destination].append(source)
@@ -56,6 +62,16 @@ class Graph:
                     return True
         return False
 
+    def DisjointCycle(self, vertices):
+        d = DisjointSet(vertices)
+        for i, j in self.edges:
+            a, b = d.find(i), d.find(j)
+            if a == b:
+                return True
+            d.union(i, j)
+
+        return False
+
 
 g = Graph(6)
 g.add_edge(0, 1)
@@ -64,5 +80,6 @@ g.add_edge(2, 3)
 g.add_edge(3, 4)
 g.add_edge(1, 4)
 g.add_edge(0, 5)
-print(g.BFSCycle())
+# print(g.BFSCycle())
+print(g.DisjointCycle(6))
 # print(g.isCycleInUndirectedGraph())
