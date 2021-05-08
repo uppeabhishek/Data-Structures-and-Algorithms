@@ -52,3 +52,8 @@ g.add_edge(3, 3)
 # g.DFS()
 # g.BFS()
 g.DFSHelper(2)
+
+
+temp = [[1,2], [2,3]]
+for a,b in temp:
+    print(a, b)
